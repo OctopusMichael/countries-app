@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+
+
+  .container {
+    @apply md:max-w-[1440px] w-screen md:mx-auto  px-[30px] md:px-[50px]
+  }
+}
+
+
+#input {
+  background-image: url("/assets/whiteSearch.svg");
+  background-repeat: no-repeat;
+  background-position: 8% 50%;
+  background-size: contain;
+  background-size: 30px;
+  
+}
+
+#input2 {
+  background-image: url("/assets/search.svg");
+  background-repeat: no-repeat;
+  background-position: 8% 50%;
+  background-size: contain;
+  background-size: 30px;
+  
+}
+
+body{
+  background-color:#fafafa;
+  color: black;
+  scroll-behavior: smooth;
+  
+
+
+}
